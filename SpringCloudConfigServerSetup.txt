@@ -37,3 +37,10 @@ http://localhost:8090/empquery/default
 
 http://localhost:8090/empdeptquery/prod
 
+
+http://localhost:3333/actuator/refresh
+
+and add below url in application.properties in config client
+
+management.endpoints.web.exposure.include=*
+
