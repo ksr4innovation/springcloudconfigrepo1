@@ -44,3 +44,5 @@ and add below url in application.properties in config client
 
 management.endpoints.web.exposure.include=*
 
+http://localhost:8080/actuator/bus-refresh
+
